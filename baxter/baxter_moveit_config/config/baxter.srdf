@@ -279,7 +279,7 @@
   <disable_collisions link1="screen" link2="sonar_ring" reason="Never"/>
   <disable_collisions link1="screen" link2="torso" reason="Never"/>
   <disable_collisions link1="sonar_ring" link2="torso" reason="Adjacent"/>
-  <disable_collisions link1="right_wrist" link2="virtual_camera_link" reason="Adjacent"/>
+  <disable_collisions link1="left_wrist" link2="virtual_camera_link" reason="Adjacent"/>
   <disable_collisions link1="virtual_camera_link" link2="virtual_camera_gazebo_optical_frame" reason="Never"/>
   <disable_collisions link1="virtual_camera_link" link2="virtual_camera_optical_frame" reason="Never"/>
   <!--Left End Effector Collisions-->
